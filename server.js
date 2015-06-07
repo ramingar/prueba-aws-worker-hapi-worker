@@ -10,7 +10,7 @@ var AWS = require('aws-sdk'),
   server = new Hapi.Server();
 
 //server.connection({ host: 'localhost', port: '3000' });
-server.connection({ port: '80' });
+server.connection({ port: '8081' });
 
 /* **** FUNCIONES SQS ********************** */
 function sendSqsMessage(sender) {
