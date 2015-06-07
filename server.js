@@ -23,7 +23,7 @@ server.route({
       secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
       region: awsRegion
     });
-/*
+
     sqs = new AWS.SQS();
 
     server.log('response: ', request.payload.name); // payload= {"name":"XXXX"}
@@ -33,7 +33,7 @@ server.route({
     );
 
     response();
-    */
+
   }
 });
 
