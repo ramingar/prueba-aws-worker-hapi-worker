@@ -1,0 +1,39 @@
+{
+  "name": "primera-prueba-worker-hapi",
+  "version": "0.0.1",
+  "description": "Prueba de workers que recogen mensajes de una AWS SQS",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramingar/prueba-aws-worker-hapi.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "hapi.js",
+    "worker",
+    "AWS",
+    "AWS",
+    "SQS",
+    "SQS"
+  ],
+  "author": "Rafael Minguet García <rminguet@gmail.com>",
+  "license": "GNU GPL v2",
+  "bugs": {
+    "url": "https://github.com/ramingar/prueba-aws-worker-hapi/issues"
+  },
+  "homepage": "https://github.com/ramingar/prueba-aws-worker-hapi",
+  "dependencies": {
+    "aws-sdk": "*",
+    "good": "*",
+    "good-console": "^5.0.2",
+    "hapi": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
