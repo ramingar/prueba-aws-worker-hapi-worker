@@ -6,7 +6,7 @@
 var AWS = require('aws-sdk'),
   awsRegion = 'us-west-2',
   sqs = {},
-  queueUri = 'https://sqs.us-west-2.amazonaws.com/921644418190/sample';
+  //queueUri = 'https://sqs.us-west-2.amazonaws.com/921644418190/sample';
   Hapi = require('hapi'),
   server = new Hapi.Server();
 
