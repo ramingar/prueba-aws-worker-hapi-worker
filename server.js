@@ -44,9 +44,7 @@ server.route({
   method: 'GET',
   path: '/',
   handler: function (request, response) {
-    sendSqsMessage(encodeURIComponent(request.params.name));
-    response('Your message ' + encodeURIComponent(request.params.name) +
-      ' has been sent to queue!');
+    response('HoooOOOooolaaaAAAaaa sueeeEEEeeelooOOOooo!\n');
   }
 });
 
@@ -54,7 +52,9 @@ server.route({
   method: 'GET',
   path: '/{name}',
   handler: function (request, response) {
-    response('Hola ' + encodeURIComponent(request.params.name) + '!\n');
+    sendSqsMessage(encodeURIComponent(request.params.name));
+    response('Your message ' + encodeURIComponent(request.params.name) +
+        ' has been sent to queue!');
   }
 });
 /* **** END: RUTAS ************************** */
