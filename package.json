@@ -4,7 +4,8 @@
   "description": "Prueba de workers que recogen mensajes de una AWS SQS",
   "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
